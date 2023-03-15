@@ -1,0 +1,100 @@
+/* reset */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* style */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content .container h3 {
+    font-size: 1.618rem;
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.content h3 span {
+    font-weight: 400;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.content .container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    max-width: 350px;
+    margin: 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: #f8f8f6;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 2px #d2d2d2;
+}
+
+.content .container .card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.content .container a:active {
+    transform: scale(0.9, 0.9);
+}
+
+.content .container .background-card {
+    width: 70vmin;
+    height: calc((70vmin * 40) / 60);
+    max-width: 350px;
+    max-height: calc(400px / (12/7));
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.content .container .sate.background-card {
+    background-image: url("./assets/sate-ayam.jpg");
+    margin-bottom: 1rem;
+}
+
+.content .container .nasgor.background-card {
+    background-image: url("./assets/nasi-goreng-telor.jpg");
+    margin-bottom: 1rem;
+}
+
+.content .container .rames.background-card {
+    background-image: url("./assets/nasi-rames.jpg");
+    margin-bottom: 1rem;
+}
+
+.content .container h4 {
+    font-size: 1.618rem;
+}
+
+.content .container h4,p {
+    align-self: flex-start;
+    padding: calc(1rem / 1.618) 1rem;
+}
+
+.content .container a span {
+    font-size: 0.85rem;
+}
+
+.content .container a {
+    align-self: flex-start;
+    margin: calc(1rem / 1.618) 1rem 1rem;
+    padding: calc(1rem / 1.618);
+    border-radius: 0.5rem;
+    background-color: #00c077;
+    text-decoration: none;
+    color: white;
+}
