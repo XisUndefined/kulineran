@@ -1,0 +1,32 @@
+@media all and (min-width: 768px) {
+    .content .container .card:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .main .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 80vw;
+        /* height: 53.335vw; */
+        margin: 0 1.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .main .card .text-card {
+        margin: 0 1rem;
+        /* flex: 7; */
+        /* max-width: 800px; */
+    }
+
+    .main .card .text-card {
+        flex: 7;
+        max-width: 500px;
+    }
+
+    .main .product.card .background-card-2 {
+        order: 2
+    }
+}
