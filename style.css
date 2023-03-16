@@ -13,7 +13,7 @@ body {
 }
 
 .content .container h3 {
-    font-size: 1.618rem;
+    font-size: calc(2rem * 1.618);
     margin: 1rem;
     width: 100%;
     text-align: center;
