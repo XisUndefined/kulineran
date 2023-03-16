@@ -12,6 +12,137 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 213px;
+}
+.group1{
+    display: flex;
+    margin: 24px 0px;
+}
+.group2{
+    display: flex;
+    margin: 24px 0px;
+}
+.group3{
+    display: flex;
+    margin: 24px 0px;
+}
+
+.group1 h3{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 800;
+    color:#4EB883;
+}
+.group1 p{
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 200px;
+    color:#2F2E41
+}
+.group1 img{
+    max-width:calc(336px/2);
+    max-height:calc(460px/2);
+    border-radius: 16px;
+}
+
+.group2 h3{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 800;
+    color:#4EB883;
+}
+.group2 p{
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 200px;
+    line-height: 29px;
+    color:#2F2E41
+}
+.group2 img{
+    max-width: calc(336px/2);
+    max-height: calc(336px/2);
+    border-radius: 16px;
+}
+.group2 .pict{
+    order:2;
+}
+
+.group3 h3{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 800;
+    color:#4EB883;
+}
+.group3 p{
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 200px;
+    color:#2F2E41
+}
+.group3 img{
+    max-width: calc(453px/2);
+    max-height: calc(453px/2);
+    border-radius: 16px;
+}
+.group4 h3{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 800;
+    color:#4EB883;
+}
+.group4{
+    text-align: center;
+}
+.group4 h3{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 800;
+    color:#4EB883
+}
+.group4 img{
+    width: 237px;
+    height: 237px;
+    border-radius: 16px;
+}
+.group4 span{
+    color:#EC9A29
+}
+.section-title{
+    border-bottom:4px solid #EC9A29;
+    width:fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* .group4{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.group4 li{
+    flex:auto;
+    width: 30%;
+} */
+.group4 .gallery img{
+    margin: 5px;
+}
+.main .group1 .text{
+    margin-left: 24px;
+}
+.main .group2 .text{
+    margin-right: 24px;
+    order: 1;
+}
+.main .group3 .text{
+    margin-left: 24px;
+}
+
 .header {
     overflow: hidden;
     background-color: #b5f1cc;
